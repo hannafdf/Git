@@ -3,6 +3,11 @@
 	"lastname":"Karaban" , 
 	"age" : 30, 
 	"number of pets":"1 cat" , 
-	"desired Salary":"100500"
+	"desired Salary":"100500" ,
+	 "favorite movie":"The mysterious story of Benjamin Button",
+   	"favorite series":"Dr. House",
+  	 "favorite food":"khachapuri",
+  	 "favorite season":"autumn",
+   	"side that we would like to visit":"Georgia"
 }
 
