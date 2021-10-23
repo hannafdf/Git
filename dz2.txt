@@ -34,7 +34,7 @@ i ...... esc:wq
 <about_me>
         <name>Hanna Karaban</name>
         <age>30</age>
-        <pets>1<pets>
+        <pets>1</pets>
         <pay>100500</pay>
 </about_me>
 ~
