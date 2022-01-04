@@ -1,0 +1,157 @@
+1) Создать файл “new.json”
+	$ touch new.json
+
+2) Добавить файл под гит. 
+	$ git add new.json
+
+3) Проверить статус 
+	$ git status
+
+4) Закоммитить файл. (зафиксировать изменения в памяти гита) 
+	$ git commit -m new.json
+
+5) Отправить файл на внешний GitHub репозиторий.
+	$ git push
+
+6) Создать файлы txt, json, xml.
+	$ touch new2.json, new2.xml, new2.txt
+
+7) Добавить файлы под гит.
+	$ git add . 
+
+8) Закоммитить файлы.	
+	$ git commit -m new2.json, new2.xml, new2.txt
+
+9) Отправить файлы на внешний GitHub репозиторий. 
+	$ git push
+
+10) Отредактировать содержание файла “new2.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
+10.1) открыть файл 
+	$ vim new2.txt
+10.2) написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
+	Karaban Anna
+	30 
+	1 cat 
+	100500
+10.3) сохранить и выйти
+i  esc :wq
+
+11) Отредактировать содержание файла “new2.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+11.1) открыть файл
+	$ vim new2.json
+11.2) написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON
+ {
+        "name":"Hanna" ,
+        "lastname":"Karaban" ,
+        "age" : 30,
+        "number of pets":"1 cat" ,
+        "desired Salary":"100500"
+}
+
+11.3) сохранить и выйти
+i  esc :wq
+
+12) Добавить и закоммитить “new2.txt” одной строчкой. 
+	$ git add new2.txt && git commit -m new2.txt
+
+13) Добавить и закоммитить “new2.json” одной строчкой. 
+	$ git add new2.json && git commit -m new2.json
+
+14) Отправить изменения на внешний репозиторий. 
+	$ git push
+
+15) Отредактировать содержание файла “new2.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+
+15.1) открыть файл 
+	$ vim new2.xml
+15.2) написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<about_me>
+        <name>Hanna Karaban</name>
+        <age>30</age>
+        <pets>1</pets>
+        <pay>100500</pay>
+</about_me>
+
+15.3) сохранить и выйти
+	i  esc :wq
+
+16) Добавить и закоммитить “new2.xml” одной строчкой. 
+	$ git add new2.xml && git commit -m "new2.xml"
+
+
+17) Отправить изменения на внешний репозиторий.
+	$ git push
+18) Отправить предыдущее домашнее задание по GitBush Terminal на внешний репозиторий.
++
+
+19) В веб интерфейсе GitHub создать файл new3.txt.
+
+19.1) https://github.com/..../...../...../main 
+add file 
+create new file
+
+favorite movie - The mysterious story of Benjamin Button 
+Favorite series - Dr. House
+favorite food - khachapuri 
+favorite season - autumn 
+side that we would like to visit - georgia
+
+20) Отредактировать в веб интерфейсе содержание файла “new3.txt” - написать информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить).
+
+favorite movie - The mysterious story of Benjamin Button 
+Favorite series - Dr. House
+favorite food - khachapuri 
+favorite season - autumn 
+side that we would like to visit - georgia
+
+21) Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+22) Синхронизировать внешний и локальный репозитории (слить изменения с внешнего репозитория) 
+	$ git pull
+
+23) Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате JSON.
+в файле нажать карандашик
+
+{
+   "name":"Hanna",
+   "lastname":"Karaban",
+   "age":30,
+   "number of pets":"1 cat",
+   "desired Salary":"100500",
+   "favorite movie":"The mysterious story of Benjamin Button",
+   "favorite series":"Dr. House",
+   "favorite food":"khachapuri",
+   "favorite season":"autumn",
+   "side that we would like to visit":"Georgia"
+} 
+
+24) Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
++
+
+25) Синхронизировать внешний и локальный репозитории 
+	$ git pull
+
+26) Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить). Всё в формате XML.
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<about_me>
+	<name>Hanna Karaban</name>
+	<age>30</age>
+	<pets>1<pets>
+	<pay>100500</pay>
+	<favorite movie>The mysterious story of Benjamin Button</favorite movie>
+	<favorite series>Dr. House</favorite series>
+	<favorite food>khachapuri</favorite food>
+	<favorite season>autumn</favorite season>	
+	<side that we would like to visit>Georgia</side that we would like to visit>
+<about_me> 
+27) Сделать Commit changes (сохранить) изменения на веб интерфейсе.
++
+
+28) Синхронизировать внешний и локальный репозитории 
+	$ git pull
+
+
+
