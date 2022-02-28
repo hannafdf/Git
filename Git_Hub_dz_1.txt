@@ -9,7 +9,7 @@ HW 1  - Linux terminal (GitBash) commands
 3) Создать 3 папки
 	$ mkdir {01..03}
 
-4) Зайти в любоую папку
+4) Зайти в папку
 	$ cd 01
 
 5) Создать 5 файлов (3 txt, 2 json)
@@ -21,7 +21,7 @@ HW 1  - Linux terminal (GitBash) commands
 7) Вывести список содержимого папки
 	$ ls -la
 
-8) Открыть любой txt файл
+8) Открыть txt файл
 	$ vim 1.txt
 
 Переход в режим редактирования I (Insert)
